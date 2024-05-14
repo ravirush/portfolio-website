@@ -18,19 +18,15 @@ export default function About() {
         <SectionHeading>About Me</SectionHeading>
 
         <p className='mb-3'>
-        I am an enthusiastic <span className='font-medium'>Undergraduate</span> student pursuing a degree in <span className='font-medium'>Applied Mathematics and Computing</span>
-        {" "} at the University of Jaffna, concurrently pursuing a <span className='font-medium'>Bachelor of Information Technology</span> degree at the University of Colombo School of Computing.
+        As a <span className='font-medium'>Software Engineering undergraduate</span> at the <span className='font-medium'>University of Westminster</span>, I am driven by a passion for technology and innovation. Currently immersed in a dynamic academic journey, I am pursuing excellence in my field.
         </p>
 
         <p className='mb-3'>
-        My academic journey has provided me with a unique blend of mathematical rigor and computational expertise. Through my studies in applied mathematics, I have honed analytical thinking and problem-solving skills, 
-        essential for dissecting complex software systems and identifying potential areas for improvement. Complementing my <span className='font-medium'>Mathematical background</span>, my BIT degree has equipped me with 
-        a solid foundation in <span className='font-medium'>Computer science principles</span> and software development methodologies. From programming languages to database management, I have gained a 
-        comprehensive understanding of the intricacies involved in software engineering.
+        My coursework has endowed me with a rich understanding of software development principles and methodologies. Through rigorous study, I have cultivated analytical prowess and problem-solving acumen, essential for navigating the complexities of software systems. Additionally, my exposure to a diverse array of programming languages and database management has fortified my technical proficiency.
         </p>
 
         <p>
-        I'm highly motivated to learn and contribute to a team environment, working collaboratively with developers and stakeholders to deliver exceptional software.
+        Keen on collaboration and continuous learning, I am eager to contribute to team environments, leveraging my skills to deliver impactful solutions. With a fervent dedication to advancing in the realm of software engineering, I am poised to make meaningful contributions to the ever-evolving tech landscape.        
         </p>
     </motion.section>
   );
