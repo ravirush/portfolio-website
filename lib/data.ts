@@ -1,10 +1,12 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+// import { CgWorkAlt } from "react-icons/cg";
+// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import angellaImg from "@/public/angella.jpg";
+import lanaImg from "@/public/lana.jpg";
+import miaImg from "@/public/mia.jpg";
+import natashaImg from "@/public/natasha.jpg";
+import sunnyImg from "@/public/sunny.jpg";
 
 export const links = [
   {
@@ -62,25 +64,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "VetZii - A Vet Booking Application",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A complete veterinary booking application with a disease prediction system. worked on the backend of the application with NodeJS.",
+    tags: ["Flutter", "NodeJS", "MongoDB"],
+    imageUrl: angellaImg,
   },
   {
-    title: "rmtDev",
+    title: "Shopping Managing System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An online shopping management system (GUI and CLI) that included functionalities to manage customer shopping cart and view total cost and discounts.",
+    tags: ["Java", "Java Swing"],
+    imageUrl: lanaImg,
   },
   {
-    title: "Word Analytics",
+    title: "Ticket Booking System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A ticket booking system (CLI) that allows users to book a seat in a theater.",
+    tags: ["Java"],
+    imageUrl: miaImg,
+  },
+  {
+    title: "Tourism Website",
+    description:
+      "A modern-looking Sri Lankan tourism website created with HTML, CSS, and JavaScript.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: natashaImg,
+  },
+  {
+    title: "University Grade Analyser",
+    description:
+      "A Python-based system (CLI) that allows university students to predict their progression outcomes.",
+    tags: ["Python"],
+    imageUrl: sunnyImg,
   },
 ] as const;
 
