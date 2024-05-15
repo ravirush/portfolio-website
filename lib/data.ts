@@ -2,11 +2,11 @@ import React from "react";
 // import { CgWorkAlt } from "react-icons/cg";
 // import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import angellaImg from "@/public/angella.jpg";
-import lanaImg from "@/public/lana.jpg";
-import miaImg from "@/public/mia.jpg";
-import natashaImg from "@/public/natasha.jpg";
-import sunnyImg from "@/public/sunny.jpg";
+import vetziImg from "@/public/vetzi.jpg";
+import shoppingImg from "@/public/shopping.jpg";
+import ticketImg from "@/public/ticket.jpg";
+import tourismImg from "@/public/tourism.jpg";
+import gradeImg from "@/public/grade.jpg";
 
 export const links = [
   {
@@ -68,35 +68,35 @@ export const projectsData = [
     description:
       "A complete veterinary booking application with a disease prediction system. worked on the backend of the application with NodeJS.",
     tags: ["Flutter", "NodeJS", "MongoDB"],
-    imageUrl: angellaImg,
+    imageUrl: vetziImg,
   },
   {
     title: "Shopping Managing System",
     description:
       "An online shopping management system (GUI and CLI) that included functionalities to manage customer shopping cart and view total cost and discounts.",
     tags: ["Java", "Java Swing"],
-    imageUrl: lanaImg,
+    imageUrl: shoppingImg,
   },
   {
     title: "Ticket Booking System",
     description:
       "A ticket booking system (CLI) that allows users to book a seat in a theater.",
     tags: ["Java"],
-    imageUrl: miaImg,
+    imageUrl: ticketImg,
   },
   {
     title: "Tourism Website",
     description:
       "A modern-looking Sri Lankan tourism website created with HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: natashaImg,
+    imageUrl: tourismImg,
   },
   {
     title: "University Grade Analyser",
     description:
       "A Python-based system (CLI) that allows university students to predict their progression outcomes.",
     tags: ["Python"],
-    imageUrl: sunnyImg,
+    imageUrl: gradeImg,
   },
 ] as const;
 
