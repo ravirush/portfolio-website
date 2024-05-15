@@ -69,6 +69,7 @@ export const projectsData = [
       "A complete veterinary booking application with a disease prediction system. worked on the backend of the application with NodeJS.",
     tags: ["Flutter", "NodeJS", "MongoDB"],
     imageUrl: vetziImg,
+    link: "https://github.com/Dew-123/VetZii"
   },
   {
     title: "Shopping Managing System",
@@ -76,6 +77,7 @@ export const projectsData = [
       "An online shopping management system (GUI and CLI) that included functionalities to manage customer shopping cart and view total cost and discounts.",
     tags: ["Java", "Java Swing"],
     imageUrl: shoppingImg,
+    link: "https://github.com/ravirush/Online-Shopping-System-Java-Swing"
   },
   {
     title: "Ticket Booking System",
@@ -83,6 +85,7 @@ export const projectsData = [
       "A ticket booking system (CLI) that allows users to book a seat in a theater.",
     tags: ["Java"],
     imageUrl: ticketImg,
+    link: "https://github.com/ravirush/Theater-Ticket-Booking-System-Java"
   },
   {
     title: "Tourism Website",
@@ -90,6 +93,7 @@ export const projectsData = [
       "A modern-looking Sri Lankan tourism website created with HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: tourismImg,
+    link: "https://github.com/ravirush/Sri-Lankan-Tourism-Website"
   },
   {
     title: "University Grade Analyser",
@@ -97,6 +101,7 @@ export const projectsData = [
       "A Python-based system (CLI) that allows university students to predict their progression outcomes.",
     tags: ["Python"],
     imageUrl: gradeImg,
+    link: "https://github.com/ravirush/Progression-Outcome-System-Python"
   },
 ] as const;
 
