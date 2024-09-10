@@ -1,12 +1,11 @@
 import React from "react";
-// import { CgWorkAlt } from "react-icons/cg";
-// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import vetziImg from "@/public/vetzi.jpg";
 import shoppingImg from "@/public/shopping.jpg";
 import ticketImg from "@/public/ticket.jpg";
 import tourismImg from "@/public/tourism.jpg";
 import gradeImg from "@/public/grade.jpg";
+import { CgWorkAlt } from "react-icons/cg";
 
 export const links = [
   {
@@ -44,14 +43,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2022 - present",
   },
-  // {
-  //   title: "Front-End Developer",
-  //   location: "Orlando, FL",
-  //   description:
-  //     "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-  //   icon: React.createElement(CgWorkAlt),
-  //   date: "2019 - 2021",
-  // },
+  {
+    title: "Trainee Software Engineer",
+    location: "Navitsa, Sri Lanka",
+    description:
+      "I began my career as a trainee full-stack developer at Navitsa, where I am currently working on full-stack development projects.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
   // {
   //   title: "Full-Stack Developer",
   //   location: "Houston, TX",
@@ -108,19 +107,21 @@ export const projectsData = [
 export const skillsData = [
   "Java",
   "Python",
-  "HTML",
-  "CSS",
-  "Tailwind",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Express",
-  "MySQL",
   "PHP",
+  "React",
+  "Angular",
+  "NextJS",
+  "NodeJS",
+  "Spring Boot",
+  "Express",
+  "HTML5",
+  "CSS3",
+  "Tailwind",
+  "MySQL",
   "MongoDB",
-  "Framer Motion",
+  "Postman",
   "Git",
   "GitHub",
 ] as const;
