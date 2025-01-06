@@ -119,6 +119,7 @@ export const skillsData = [
   "HTML5",
   "CSS3",
   "Tailwind",
+  "Bootstrap",
   "MySQL",
   "MongoDB",
   "Postman",
